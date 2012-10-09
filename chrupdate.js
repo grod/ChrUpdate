@@ -62,7 +62,7 @@ function ChrUpdate( url, host, port )
 		for (var i = 0; i < pages.length; i++)
 		{
 			if ( pages[i].url.indexOf("chrome-devtools://") == -1 &&     // Do not update dev tools
-				(pageUrl == "" || pages[i].url.indexOf( pageUrl ) > 0) ) // url empty or partial match
+				(pageUrl == "" || pages[i].url.toLowerCase().indexOf( pageUrl.toLowerCase() ) > 0) ) // url empty or partial match
 			{
 				if (_updateChrome( pages[i] )) updated++;
 			}
