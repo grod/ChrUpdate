@@ -1,0 +1,23 @@
+{
+  "name": "chrupdate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chrupdate.js",
+  "dependencies": {
+    "ws": "^0.4.32"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grod/ChrUpdate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grod/ChrUpdate/issues"
+  },
+  "homepage": "https://github.com/grod/ChrUpdate#readme"
+}
